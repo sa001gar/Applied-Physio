@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Applied Physio</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://unpkg.com/tailwindcss-cdn@3.4.10/tailwindcss.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header (Same as other pages) -->
+    <header class="fixed w-full bg-white shadow-sm z-50">
+        <!-- Header content -->
+    </header>
+
+    <!-- Featured Post -->
+    <section class="pt-24 pb-12">
+        <div class="container mx-auto px-4">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2">
+                        <img src="/placeholder.svg?height=600&width=800" alt="Featured Post" class="w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2 p-8">
+                        <span class="text-blue-600 font-semibold">Featured</span>
+                        <h1 class="text-3xl font-bold mt-2 mb-4">Understanding Physical Therapy: A Comprehensive Guide</h1>
+                        <p class="text-gray-600 mb-4">Learn about the fundamentals of physical therapy and how it can help improve your quality of life.</p>
+                        <div class="flex items-center mb-6">
+                            <img src="/placeholder.svg?height=40&width=40" alt="Author" class="w-10 h-10 rounded-full">
+                            <div class="ml-3">
+                                <p class="font-semibold">Dr. Sarah Johnson</p>
+                                <p class="text-gray-500 text-sm">Posted on January 15, 2024</p>
+                            </div>
+                        </div>
+                        <button class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Blog Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">Exercise</span>
+                            <span class="text-gray-500 text-sm ml-4">5 min read</span>
+                        </div>
+                        <h2 class="text-xl font-bold mb-2">10 Essential Stretches for Office Workers</h2>
+                        <p class="text-gray-600 mb-4">Discover simple yet effective stretches you can do at your desk...</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="/placeholder.svg?height=32&width=32" alt="Author" class="w-8 h-8 rounded-full">
+                                <span class="ml-2 text-sm text-gray-600">By Dr. Michael Chen</span>
+                            </div>
+                            <span class="text-gray-500 text-sm">Jan 10, 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Blog Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">Recovery</span>
+                            <span class="text-gray-500 text-sm ml-4">8 min read</span>
+                        </div>
+                        <h2 class="text-xl font-bold mb-2">Post-Surgery Recovery Tips</h2>
+                        <p class="text-gray-600 mb-4">Expert advice on how to optimize your recovery after surgery...</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="/placeholder.svg?height=32&width=32" alt="Author" class="w-8 h-8 rounded-full">
+                                <span class="ml-2 text-sm text-gray-600">By Dr. Emma Wilson</span>
+                            </div>
+                            <span class="text-gray-500 text-sm">Jan 8, 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Blog Post" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-4">
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">Wellness</span>
+                            <span class="text-gray-500 text-sm ml-4">6 min read</span>
+                        </div>
+                        <h2 class="text-xl font-bold mb-2">The Benefits of Regular Physical Activity</h2>
+                        <p class="text-gray-600 mb-4">Learn how regular exercise can improve your overall health...</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center">
+                                <img src="/placeholder.svg?height=32&width=32" alt="Author" class="w-8 h-8 rounded-full">
+                                <span class="ml-2 text-sm text-gray-600">By Dr. Sarah Johnson</span>
+                            </div>
+                            <span class="text-gray-500 text-sm">Jan 5, 2024</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-12 bg-blue-600">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Subscribe to Our Newsletter</h2>
+                <p class="text-blue-100 mb-6">Get the latest articles and health tips delivered to your inbox.</p>
+                <form class="flex flex-col md:flex-row gap-4">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-full">
+                    <button type="submit" class="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-blue-50 transition">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <!-- Footer content same as other pages -->
+    </footer>
+</body>
+</html>
